@@ -43,6 +43,13 @@
   --color-accent: #f91414;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 body {
   font-family: var(--base-font);
   color: var(--color-fg);
